@@ -1,0 +1,274 @@
+/* ini css buat index.html */
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 200%;
+    color: #40514E;
+}
+
+h1 {
+    color: #66BFBF;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2,5rem;
+    font-weight: normal;
+    color: #66BFBF;
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+    color: #11999E;
+}
+
+hr {
+    border-top: 10px dotted #EAF6F6;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 5%;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.intro {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.profile img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.top-container {
+    background-color: rgb(206, 245, 247);
+    padding-top: 50px !important;
+    position: relative;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 70px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+.mountain {
+    position: relative;
+    top: 9px;
+}
+
+.profile {
+    margin: 100px auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.skill-img-left {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+.skill-img-right {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    padding: 20px
+}
+
+.contact-me {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 1.5;
+}
+
+.desk {
+    font-size: 1.2rem;
+}
+
+.message {
+    width: 60%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3b83b3);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3b83b3);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3b83b3);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3b83b3);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3b83b3);
+    text-decoration: none;
+  }
+
+.bottom-container {
+    background-color: #66BFBF;
+    position: relative;
+    font-size: 1rem;
+    padding: 50px;
+}
+
+.footer-link {
+    color: #1199E9;
+    text-align: center;
+    padding: 20px
+}
+
+.footer-link:hover {
+    color: #fcfcfc;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+
+
+/* clear float */
+/* .text-desc-left {
+    clear: left;
+}
+
+.text-desc-right {
+    clear: right;
+} */
+
+
+
+
+
+/* ini css buat position.html */
+
+.satu {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 200px;
+}
+
+.dua {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    bottom: 200px;
+}
+
+.tiga {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    bottom: 400px;
+    left: 400px
+}
+
+.empat {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    left: 400px;
+}
+
+.lima {
+    background-color: rgb(255, 72, 0);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+.enam {
+    background-color: rgb(255, 0, 255);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    right: 400px;
+}
+
+.tujuh {
+    background-color: rgb(0, 255, 255);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 800px;
+}
+
+.delapan {
+    background-color: rgb(255, 255, 0);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+}
+
+.sembilan {
+    background-color: rgb(0, 0, 255);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 1200px;
+    left: 400px;
+}
+
+
+
+
+
+
